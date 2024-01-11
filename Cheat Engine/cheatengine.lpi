@@ -9,12 +9,12 @@
       </Flags>
       <SessionStorage Value="InProjectDir"/>
       <AutoCreateForms Value="False"/>
-      <Title Value="Cheat Engine 7.5"/>
+      <Title Value="Velky Nezbednik 7.5"/>
       <UseXPManifest Value="True"/>
       <XPManifest>
         <DpiAware Value="True"/>
-        <TextName Value="Cheat Engine"/>
-        <TextDesc Value="Scripting language and tools"/>
+        <TextName Value="VelkyNezbednik"/>
+        <TextDesc Value="VelkyNezbednik"/>
       </XPManifest>
       <Icon Value="0"/>
     </General>
@@ -23,14 +23,13 @@
       <OutDir Value="bin\languages"/>
     </i18n>
     <VersionInfo>
-      <UseVersionInfo Value="True"/>
       <AutoIncrementBuild Value="True"/>
-      <MajorVersionNr Value="7"/>
-      <MinorVersionNr Value="5"/>
-      <BuildNr Value="7707"/>
+      <MajorVersionNr Value="8"/>
+      <MinorVersionNr Value="6"/>
+      <BuildNr Value="7709"/>
       <Language Value="041C"/>
       <CharSet Value="04B0"/>
-      <StringTable CompanyName="Cheat Engine" FileDescription="Cheat Engine" ProductVersion="7.5"/>
+      <StringTable CompanyName="VelkyNezbednik" FileDescription="VelkyNezbednik" ProductVersion="VelkyNezbednik"/>
     </VersionInfo>
     <BuildModes Count="11">
       <Item1 Name="Release 32-Bit" Default="True"/>
@@ -39,7 +38,7 @@
           <Version Value="11"/>
           <PathDelim Value="\"/>
           <Target>
-            <Filename Value="bin\cheatengine-$(TargetCPU)"/>
+            <Filename Value="bin\VelkyNezbednik-$(TargetCPU)"/>
           </Target>
           <SearchPaths>
             <IncludeFiles Value="$(ProjOutDir);$(LazarusDir)\ide\include\$(TargetOS);$(LazarusDir)\images;$(LazarusDir)\ideintf\images"/>
@@ -83,9 +82,6 @@
             <CompilerMessages>
               <IgnoredMessages idx6058="True" idx5066="True" idx5043="True" idx4105="True" idx4104="True" idx3177="True" idx3175="True" idx2005="True"/>
             </CompilerMessages>
-            <ConfigFile>
-              <WriteConfigFilePath Value="$(ProjOutDir)\fpclaz.cfg"/>
-            </ConfigFile>
             <CustomOptions Value="-WB00400000
 -dbenchmarkps
 -dcemain
@@ -168,9 +164,6 @@
             <CompilerMessages>
               <IgnoredMessages idx6058="True" idx5066="True" idx5043="True" idx4105="True" idx4104="True" idx3177="True" idx3175="True" idx2005="True"/>
             </CompilerMessages>
-            <ConfigFile>
-              <WriteConfigFilePath Value="$(ProjOutDir)\fpclaz.cfg"/>
-            </ConfigFile>
             <CustomOptions Value="-WB00400000
 -CfAVX2
 -CpCOREAVX2
@@ -254,7 +247,6 @@
             <WriteFPCLogo Value="False"/>
             <ConfigFile>
               <StopAfterErrCount Value="1000"/>
-              <WriteConfigFilePath Value="$(ProjOutDir)\fpclaz.cfg"/>
             </ConfigFile>
             <CustomOptions Value="-dbenchmarkps
 -dcemain
@@ -323,9 +315,6 @@
               <ShowHints Value="False"/>
             </Verbosity>
             <WriteFPCLogo Value="False"/>
-            <ConfigFile>
-              <WriteConfigFilePath Value="$(ProjOutDir)\fpclaz.cfg"/>
-            </ConfigFile>
             <CustomOptions Value="-dbenchmarkps -dcemain -WB00400000 -dNDEBUG -dNESTEDSTRUCTURES"/>
           </Other>
         </CompilerOptions>
@@ -371,7 +360,6 @@
             <WriteFPCLogo Value="False"/>
             <ConfigFile>
               <StopAfterErrCount Value="1000"/>
-              <WriteConfigFilePath Value="$(ProjOutDir)\fpclaz.cfg"/>
             </ConfigFile>
             <CustomOptions Value="-WB00400000
 -dbenchmarkps
@@ -456,9 +444,6 @@
             <CompilerMessages>
               <IgnoredMessages idx6058="True" idx5066="True" idx5043="True" idx4105="True" idx4104="True" idx3177="True" idx3175="True" idx2005="True"/>
             </CompilerMessages>
-            <ConfigFile>
-              <WriteConfigFilePath Value="$(ProjOutDir)\fpclaz.cfg"/>
-            </ConfigFile>
             <CustomOptions Value="-WB00400000
 -dbenchmarkps
 -dcemain
@@ -536,7 +521,6 @@
             <WriteFPCLogo Value="False"/>
             <ConfigFile>
               <StopAfterErrCount Value="1000"/>
-              <WriteConfigFilePath Value="$(ProjOutDir)\fpclaz.cfg"/>
             </ConfigFile>
             <CustomOptions Value="-dNOTMULTITHREADED -dbenchmarkps -dcemain -WB00400000 -dNDEBUG -dD3DDebug -dNOVMX -dCUSTOMFLOAT -dXDEBUG -dNESTEDSTRUCTURES -dDEBUGTHREADERRORS"/>
             <OtherDefines Count="13">
@@ -602,7 +586,6 @@
             <WriteFPCLogo Value="False"/>
             <ConfigFile>
               <StopAfterErrCount Value="1000"/>
-              <WriteConfigFilePath Value="$(ProjOutDir)\fpclaz.cfg"/>
             </ConfigFile>
             <CustomOptions Value="-dNOTMULTITHREADED
 -dbenchmarkps
@@ -677,7 +660,6 @@
             <WriteFPCLogo Value="False"/>
             <ConfigFile>
               <StopAfterErrCount Value="1000"/>
-              <WriteConfigFilePath Value="$(ProjOutDir)\fpclaz.cfg"/>
             </ConfigFile>
             <CustomOptions Value="-WB00400000
 -dNOTMULTITHREADED
@@ -750,7 +732,6 @@
             <WriteFPCLogo Value="False"/>
             <ConfigFile>
               <StopAfterErrCount Value="1000"/>
-              <WriteConfigFilePath Value="$(ProjOutDir)\fpclaz.cfg"/>
             </ConfigFile>
             <CompilerMessages>
               <IgnoredMessages idx9201="True" idx6058="True" idx5089="True" idx5066="True" idx5043="True" idx4105="True" idx4104="True" idx3177="True" idx3175="True"/>
@@ -3088,7 +3069,7 @@
     <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
-      <Filename Value="bin\cheatengine-$(TargetCPU)"/>
+      <Filename Value="bin\VelkyNezbednik-$(TargetCPU)"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir);$(LazarusDir)\ide\include\$(TargetOS);$(LazarusDir)\images;$(LazarusDir)\ideintf\images"/>
@@ -3130,9 +3111,6 @@
       <CompilerMessages>
         <IgnoredMessages idx6058="True"/>
       </CompilerMessages>
-      <ConfigFile>
-        <WriteConfigFilePath Value="$(ProjOutDir)\fpclaz.cfg"/>
-      </ConfigFile>
       <CustomOptions Value="-WB00400000
 -dbenchmarkps
 -dcemain
@@ -3141,28 +3119,6 @@
 -dNESTEDSTRUCTURES
 -donebytejumps
 -dNoODS"/>
-      <OtherDefines Count="20">
-        <Define0 Value="NOTMULTITHREADED"/>
-        <Define1 Value="benchmarkps"/>
-        <Define2 Value="cemain"/>
-        <Define3 Value="NDEBUG"/>
-        <Define4 Value="D3DDebug"/>
-        <Define5 Value="NOVMX"/>
-        <Define6 Value="CUSTOMFLOAT"/>
-        <Define7 Value="XDEBUG"/>
-        <Define8 Value="memleaksearch"/>
-        <Define9 Value="checkassembleralphabet"/>
-        <Define10 Value="memorymapped"/>
-        <Define11 Value="privatebuild"/>
-        <Define12 Value="DBVMFORAMDISWORKING"/>
-        <Define13 Value="NESTEDSTRUCTURES"/>
-        <Define14 Value="THREADNAMESUPPORT"/>
-        <Define15 Value="LINUXTCCTEST"/>
-        <Define16 Value="asserthexviewisthreadsafe"/>
-        <Define17 Value="DEBUGPROTOCOL"/>
-        <Define18 Value="NEWCHANGEREGONX86"/>
-        <Define19 Value="overflowdebug"/>
-      </OtherDefines>
     </Other>
   </CompilerOptions>
   <Debugging>
