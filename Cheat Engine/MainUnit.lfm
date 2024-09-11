@@ -1,15 +1,15 @@
 object MainForm: TMainForm
   Tag = 2
-  Left = 835
+  Left = 1546
   Height = 592
-  Top = 138
+  Top = 286
   Width = 734
   HelpContext = 1
   HorzScrollBar.Visible = False
   VertScrollBar.Visible = False
   AllowDropFiles = True
   AutoSize = True
-  Caption = 'Cheat Engine'
+  Caption = 'VelkyNezbednik'
   ClientHeight = 572
   ClientWidth = 734
   Menu = MainMenu1

@@ -3191,19 +3191,19 @@ begin
         if not fileexists(dataloc) then
         begin
 
-          servicename:='CEDRIVER73';
+          servicename:='velkynezbednik420';
           ultimapservicename:='ULTIMAP2';
           processeventname:='DBKProcList60';
           threadeventname:='DBKThreadList60';
 
           if iswow64 then
           begin
-            sysfile:='dbk64.sys';
+            sysfile:='velkynezbednik64.sys';
             ultimapsysfile:='ultimap2-64.sys';
           end
           else
           begin
-            sysfile:='dbk32.sys';
+            sysfile:='velkynezbednik32.sys';
             ultimapsysfile:='';
           end;
 
